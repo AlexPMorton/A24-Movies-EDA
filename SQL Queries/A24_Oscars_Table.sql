@@ -1,5 +1,5 @@
-SELECT title, genre, director, budget, domestic_revenue, international_revenue,
-worldwide_revenue, runtime, mpaa_rating,
+SELECT title, release_date, genre, director, budget, domestic_revenue,
+international_revenue, worldwide_revenue, runtime, mpaa_rating,
 CASE WHEN film IS NOT NULL AND film <> 'Skin' THEN 'YES' ELSE NULL END AS oscar_win
 FROM (
 	SELECT * 
