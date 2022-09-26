@@ -7,4 +7,4 @@ FROM (
 	LEFT JOIN academy_award_winners aaw
 		ON arm.title = aaw.film 
 	) AS a24_oscars	
-ORDER BY title
+ORDER BY title;
