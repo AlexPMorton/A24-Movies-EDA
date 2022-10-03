@@ -9,3 +9,8 @@
 ## [2022-09-20]
 
 - **Added:** oscar_win column with "YES" or "NO" values for A24 movies that won an oscar
+
+## [2022-09-26]
+
+- **Updated:** genres for various movies
+- **Updated:** domestic, international, and worldwide revenues for a few movies
